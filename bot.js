@@ -4,7 +4,7 @@ var Twit = require('twit');
 var fs = require('fs');
 
 var weather = require('weather-js');
-var we;
+let we;
 
 
 var config = require('./config');
